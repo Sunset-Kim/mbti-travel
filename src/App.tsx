@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
+    <div className="App container">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="text-red-300">Hello Vite + React!</p>
